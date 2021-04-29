@@ -1,0 +1,26 @@
+body{
+    background-color: #eee;
+}
+.fade_transition{
+    transition: all ease 0.7s;
+    opacity: 0.5;
+}
+.transform_Up{
+    transform: translateY(20%);
+}
+.transform_Down{
+    transform: translateY(-20%);   
+}
+.transform_Left{
+    transform: translateX(-20%);
+}
+.transform_Right{
+    transform: translateX(20%);
+}
+.overflow{
+    overflow: hidden;
+}
+.appear{
+    opacity: 1;
+    transform: none;
+}
